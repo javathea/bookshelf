@@ -1,0 +1,55 @@
+li {
+    text-align: left;
+}
+
+table {
+    border: 1px solid;
+    width: 50%;
+    background-color: #a37052;
+    align: center;
+}
+
+td {
+    height: 85px;
+    border: 1px solid;
+}
+
+body {
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.shelf {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown {
+    background-color: beige;
+    border: beige;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarr {
+    width: 10%;
+    float: left;
+}
+
+.sidebarl {
+    width: 10%;
+    float: left;
+}
+
+.middle {
+    width: 80%;
+    float: left;
+}
+
