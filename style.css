@@ -1,12 +1,17 @@
-li {
-    text-align: left;
-}
-
 table {
     border: 1px solid;
     width: 50%;
     background-color: #a37052;
-    align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    align-items: center;
 }
 
 td {
@@ -29,9 +34,33 @@ h1 {
 }
 
 .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropbtn {
     background-color: beige;
-    border: beige;
+    border: none;
+    float: right;
+    cursor: pointer;
 }
+
+.pic {
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+  }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
 
 .flexbox {
     display: flex;
@@ -51,5 +80,12 @@ h1 {
 .middle {
     width: 80%;
     float: left;
+}
+
+.categorie {
+    background-color: #a37052;
+    border: #a37052;
+    height: 84px;
+    width: 100%;
 }
 
