@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add book</title>
+    <script type="text/javascript" src="addBook.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="/shelf/index.html">to the bookshelf</a></li>
+        </ul>
+    </header>
+    <div class="felexbox">
+        <div class="sidebarl">
+            <ul>
+                <li><a href="/shelf/index.html">start</a></li>
+                <li><a href="">book</a></li>
+                <li><a href="">edit bookshelf</a></li>
+                <li><a href="">your categories</a></li>
+            </ul>
+        </div>
+        <div class="middle">
+            <form id="bookForm">
+                <h1>add new book</h1>
+                <label for="bookInput">name of the book</label>
+                <input type="text" name="identifier" id="bookInput"/>
+                <button type="submit">add</button>
+            </form>
+            <table class="center">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                    </tr>
+                </thead>
+                <tbody id="body">
+                    <tr id="trow">
+        
+                    </tr>
+                </tbody>
+        </div>
+        <div class="sidebarr">
+            <a class="pic" href="/profile/profile.html">
+                <img src="/images/user.png" alt="user icon" height="30">
+            </a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <img src="/images/down-arrow.png" alt="dropdown arrow" height="30">
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="books.html">
+                        <img src="/images/book.png" alt="book" height="25">
+                    </a>
+                    <a href="#">
+                        <img src="/images/people.png" alt="friends" height="25">
+                    </a>
+                    <a href="#">
+                        <img src="/images/setting.png" alt="settings" height="25">
+                    </a>
+                    <a href="#">
+                        <img src="/images/logout.png" alt="logout" height="20">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

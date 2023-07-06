@@ -24,8 +24,9 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
+    font-weight: bold;
 }
 
 .shelf {
@@ -36,7 +37,7 @@ h1 {
 .dropdown {
     position: relative;
     display: inline-block;
-  }
+}
 
 .dropbtn {
     background-color: beige;
@@ -69,7 +70,8 @@ h1 {
 
 .sidebarr {
     width: 10%;
-    float: left;
+    float: right;
+
 }
 
 .sidebarl {
@@ -89,3 +91,12 @@ h1 {
     width: 100%;
 }
 
+.center {
+    background-color: beige;
+
+}
+
+#bookForm {
+    align-items: center;
+    
+}
